@@ -246,9 +246,12 @@ li {
   min-height: 32rem;
   border-radius: 1.5rem;
   border: 1px solid rgba(255, 219, 173, 0.18);
-  object-fit: cover;
-  object-position: center top;
   display: block;
+  overflow: hidden;
+  background-image: url("raju-ghising-portrait.png?v=final4");
+  background-size: cover;
+  background-position: center 18%;
+  background-repeat: no-repeat;
 }
 
 .portrait-card__caption {
